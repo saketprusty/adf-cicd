@@ -1,0 +1,12 @@
+{
+	"name": "LS_AzureSQL_source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked Service to source DB in Azure SQL",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=azure-sql-server-saket.database.windows.net;Initial Catalog=db-azuresql-dev"
+		}
+	}
+}

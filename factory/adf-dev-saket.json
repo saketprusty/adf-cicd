@@ -1,0 +1,9 @@
+{
+	"name": "adf-dev-saket",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "70197473-6868-44dc-b5c0-ff513bcfa47f",
+		"tenantId": "b05976f0-5d26-4cff-a617-ba818dc35bb5"
+	}
+}
